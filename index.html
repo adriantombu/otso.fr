@@ -3,6 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <title>Développeur web et mobile freelance à Toulouse - Otso</title>
+
+    <style>
+      body { box-sizing: border-box; color: #333; margin: 0 auto; padding: 1em 0; font-size: 16px; font-family: 'Courier New', Courier, monospace; }
+      nav { text-align: right; }
+      p, li { line-height: 1.5em }
+      a { color: #3483F4; }
+      a:visited { color: #AD58E0; }
+
+      table { border: 1px solid #ccc; width: 100%; margin: 0; padding: 0; border-collapse: collapse; border-spacing: 0; }
+      table tr { border: 1px solid #ddd; }
+      table th, table td { padding: 0.5em; text-align: center; line-height: 1.5em }
+      table th { text-transform: uppercase; letter-spacing: 1px; }
+
+      @media (max-width: 49.9375em) {
+        body { width: 100%; padding: 1em }
+        h1 { font-size: 1.5em }
+        h2 { font-size: 1.2em; margin-top: 1.5em }
+
+        table { border: 0; }
+        table thead { display: none; }
+        table tr { margin-bottom: 0.7em; display: block; border-bottom: 2px solid #ddd; }
+        table td { display: block; text-align: right; border-bottom: 1px dotted #ccc; }
+        table td:last-child { border-bottom: 0; }
+        table td:before { content: attr(title); float: left; text-transform: uppercase; font-weight: bold; margin: 0 1em 1em 0 }
+      }
+      @media (min-width: 50em) and (max-width: 63.9375em) { body { width: 80% } }
+      @media (min-width: 64em) { body { width: 60% } }
+    </style>
   </head>
 
   <body>
@@ -43,7 +71,7 @@
     <h1>Développeur Node &amp; React.js</h1>
 
     <p>Salut à toi noble visiteur, et bienvenue sur cette page dépouillée mais non moins très intéressante, qui est un <b>hommage personnel</b> au <abbr title="Hypertext Markup Language">HTML</abbr> de ma jeunesse.</p>
-    <p>Pas de <abbr title="Cascading Style Sheets">CSS</abbr>, pas de Media Queries (et pourtant, c'est 100% responsive !), de Google Fonts ou encore de jQuery. Encore moins de NodeJs, <abbr title="PHP: Hypertext Preprocessor">PHP</abbr> ou Jekyll. Cette page est la quintessence du web : une page HTML comme on les aime.</p>
+    <p>Ici pas de Google Fonts ou encore de jQuery. Encore moins de NodeJs, <abbr title="PHP: Hypertext Preprocessor">PHP</abbr> ou Jekyll. Cette page est la quintessence du web : une page HTML comme on les aime.</p>
     <p><small>Et oui, ce site est un peu un troll à tous les templates que j'ai utilisés dans ma vie.</small></p>
 
     <h2>C'est qui lui ?</h2>
@@ -96,39 +124,40 @@
         </tr>
         -->
         <tr>
-          <td>Webapp<br />Backend</td>
-          <td><a href="http://toktokdoc.com/">TokTokDoc</a></td>
-          <td>Développement de plusieurs applications front-end (<strong>React.js</strong>) et back-end (<strong>Sails.js</strong>, Node.js) pour la startup TokTokDoc pionnière de la téléconsultation en EHPAD</td>
+          <td title="Type">Webapp &amp; Backend</td>
+          <td title="Client"><a href="http://toktokdoc.com/">TokTokDoc</a></td>
+          <td title="Description">Développement de plusieurs applications front-end (<strong>React.js</strong>) et back-end (<strong>Sails.js</strong>, Node.js) pour la startup TokTokDoc pionnière de la téléconsultation en EHPAD</td>
         </tr>
         <tr>
-          <td>Site web</td>
-          <td><a href="https://www.normandie-web-school.fr/"><abbr title="Normandie Web School">NWS</abbr></a></td>
-          <td>Derrière cet acronyme se cache la Normandie Web School, portée par l'association <a href="https://www.nwx.fr/"><abbr title="Normandie Web Xperts">#NWX</abbr></a>, dont j'ai développé le site sous Wordpress</td>
+          <td title="Type">Site web</td>
+          <td title="Client"><a href="https://www.normandie-web-school.fr/"><abbr title="Normandie Web School">NWS</abbr></a></td>
+          <td title="Description">Derrière cet acronyme se cache la Normandie Web School, portée par l'association <a href="https://www.nwx.fr/"><abbr title="Normandie Web Xperts">#NWX</abbr></a>, dont j'ai développé le site sous Wordpress</td>
         </tr>
         <tr>
-          <td>Application mobile</td>
-          <td><a href="http://www.uside.fr/">Uside</a></td>
-          <td>Développée en sous-<a href="http://tonytrancard.fr/">sous-traitance</a>, Get So Satisfaction est une <strong>application mobile développée sous Ionic</strong> qui permet de mesurer la satisfaction des employés dans une société</td>
+          <td title="Type">Application mobile</td>
+          <td title="Client"><a href="http://www.uside.fr/">Uside</a></td>
+          <td title="Description">Développée en sous-<a href="http://tonytrancard.fr/">sous-traitance</a>, Get So Satisfaction est une <strong>application mobile développée sous Ionic</strong> qui permet de mesurer la satisfaction des employés dans une société</td>
         </tr>
         <tr>
-          <td>Webapp</td>
-          <td><a href="http://www.aveuglesdefrance.org/">Aveugles de France</a></td>
-          <td>Création sous <strong>Laravel</strong> d'une hotline totalement <strong>accessible</strong> à destination des travailleurs visuellement déficients afin de les aider à résoudre les difficultés rencontrées dans leur environnement professionnel</td>
+          <td title="Type">Webapp</td>
+          <td title="Client"><a href="http://www.aveuglesdefrance.org/">Aveugles de France</a></td>
+          <td title="Description">Création sous <strong>Laravel</strong> d'une hotline totalement <strong>accessible</strong> à destination des travailleurs visuellement déficients afin de les aider à résoudre les difficultés rencontrées dans leur environnement professionnel</td>
         </tr>
         <tr>
-          <td>Site web</td>
-          <td><a href="https://www.classcroute.com/">Classcroute</a></td>
-          <td>Refonte complète du site Classcroute en <a href="http://www.dwm-it.fr/">sous-traitance</a>, après un gros travail en équipe qui a duré plusieurs mois</td>
+          <td title="Type">Site web</td>
+          <td title="Client"><a href="https://www.classcroute.com/">Classcroute</a></td>
+          <td title="Description">Refonte complète du site Classcroute en <a href="http://www.dwm-it.fr/">sous-traitance</a>, après un gros travail en équipe qui a duré plusieurs mois</td>
         </tr>
         <tr>
-          <td>Application Mobile</td>
-          <td><a href="http://www.normandie-impressionniste.fr/">Normandie Impressionniste</a></td>
-          <td>Développement sous Ionic de l'application officielle de l'édition 2016 du festival Normandie Impressionniste</td>
+          <td title="Type">Application Mobile</td>
+          <td title="Client"><a href="http://www.normandie-impressionniste.fr/">Normandie Impressionniste</a></td>
+          <td title="Description">Développement sous Ionic de l'application officielle de l'édition 2016 du festival Normandie Impressionniste</td>
         </tr>
       </tbody>
     </table>
 
     <p>Voilà, c'est fini ! Tu peux désormais reprendre une activité normale.</p>
     <p><a href="https://media.giphy.com/media/12d71hRlD9T2Cc/giphy.gif">#keurkeur</a></p>
+
   </body>
 </html>
