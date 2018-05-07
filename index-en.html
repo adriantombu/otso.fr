@@ -7,33 +7,36 @@
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAMElEQVQoz2NgGEzgPx4ehiAOaVSIRZoBSRJNyX8cEMVOTEkMBegOxuEOBmxOHFgAABmpMc8DkkoDAAAAAElFTkSuQmCC" />
 
     <style>
-      body { box-sizing: border-box; color: #333; margin: 0 auto; padding: 1em 0; font-size: 16px; font-family: 'Courier New', Courier, monospace; }
-      nav { text-align: right; }
-      p, li { line-height: 1.5em }
-      a { color: #3483F4; }
-      a:visited { color: #AD58E0; }
-      hr { border: 0; height: 1px; background: #ccc }
+        html { margin: 0; padding: 0; border-top: 2px solid #c9cacc; background: #1d1f21; }
+        body { box-sizing: border-box; color: #c9cacc; margin: 0 auto; padding: 1em 0; font-size: 14px; font-family: "Lucida Console", Monaco, monospace; }
+        nav { text-align: right; margin-bottom: 3em; }
+        p, li { line-height: 1.75em; }
+        a { color: #2bbc8a; }
+        a:visited { color: #F35C38; }
+        hr { border: 0; height: 1px; background: #666 }
+        hr:last-of-type { margin-bottom: 2em; }
+        small { color: #999 }
 
-      table { border: 1px solid #ccc; width: 100%; margin: 0; padding: 0; border-collapse: collapse; border-spacing: 0; }
-      table tr { border: 1px solid #ddd; }
-      table th, table td { padding: 0.5em; text-align: center; line-height: 1.5em }
-      table th { text-transform: uppercase; letter-spacing: 1px; }
+        table { border: 1px solid #ccc; width: 100%; margin: 0; padding: 0; border-collapse: collapse; border-spacing: 0; }
+        table tr { border: 1px solid #666; }
+        table th, table td { padding: 0.75em 0.5em; text-align: center; line-height: 1.5em }
+        table th { text-transform: uppercase; letter-spacing: 1px; }
 
-      @media (max-width: 49.9375em) {
-        body { width: 100%; padding: 1em }
-        h1 { font-size: 1.5em }
-        h2 { font-size: 1.2em; margin-top: 1.5em }
+        @media (max-width: 49.9375em) {
+          body { width: 100%; padding: 1em }
+          h1 { font-size: 1.5em }
+          h2 { font-size: 1.2em; margin-top: 1.5em }
 
-        table { border: 0; }
-        table thead { display: none; }
-        table tr { margin-bottom: 0.7em; display: block; border-bottom: 2px solid #ddd; }
-        table td { display: block; text-align: right; border-bottom: 1px dotted #ccc; }
-        table td:last-child { border-bottom: 0; }
-        table td:before { content: attr(data-title); float: left; text-transform: uppercase; font-weight: bold; margin: 0 1em 1em 0 }
-      }
-      @media (min-width: 50em) and (max-width: 63.9375em) { body { width: 80% } }
-      @media (min-width: 64em) { body { width: 60% } }
-    </style>
+          table { border: 0; }
+          table thead { display: none; }
+          table tr { margin-bottom: 0.7em; display: block; border: 1px solid #666;}
+          table td { display: block; text-align: right; border-bottom: 1px solid #333; }
+          table td:last-child { border-bottom: 0; }
+          table td:before { content: attr(data-title); float: left; text-transform: uppercase; font-weight: bold; margin: 0 1em 1em 0 }
+        }
+        @media (min-width: 50em) and (max-width: 63.9375em) { body { width: 80% } }
+        @media (min-width: 64em) { body { width: 45% } }
+      </style>
   </head>
 
   <body>
@@ -69,13 +72,13 @@
       For the story, Otso stands for "wolf" in the Basque language
     -->
 
-    <nav><small><a href="index.html">Accueil</a> &bull; <b>In English</b> &bull; <a href="conditions-generales-de-vente.html">CGV</a> &bull; <a href="mentions-legales.html">Mentions légales</a></small></nav>
+    <nav><a href="index.html">Accueil</a> &bull; <b>In English</b> &bull; <a href="conditions-generales-de-vente.html">CGV</a> &bull; <a href="mentions-legales.html">Mentions légales</a></nav>
 
     <h1>Node &amp; React.js developer</h1>
 
     <hr />
 
-    <h3><abbr title="Too long; didn't read">TL;DR</abbr></h3>
+    <p><b><abbr title="Too long; didn't read">TL;DR</abbr></b></p>
     <p><b>Adrian Tombu - Full-stack javascript developer (React, Node, React Native) - Remote only</b></p>
 
     <hr />
