@@ -23,4 +23,4 @@ jobs:
 
       - name: Copy files to AWS S3
         run: |
-          aws s3 sync . s3://${{ secrets.AWS_BUCKET_ID }} --exclude '.git/*' --exclude '.github/*' --exclude '.DS_Store' --delete
+          aws s3 sync . s3://${{ secrets.AWS_BUCKET_ID }} --exclude '.git/*' --exclude '.github/*' --exclude '.DS_Store' --delete --exclude 'main.tf' --exclude 'policy.json'
