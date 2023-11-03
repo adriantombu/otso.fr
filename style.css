@@ -62,7 +62,9 @@ small {
 
 strong,
 b {
-  background: rgba(255, 255, 255, 0.2);
+  padding: 2px;
+  background: #444;
+  font-weight: 400;
 }
 
 img {
