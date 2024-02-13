@@ -2,22 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://otso.fr/</loc>
-        <lastmod>2019-12-29T23:40:00+01:00</lastmod>
+        <lastmod>2024-02-09T23:40:00+01:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://otso.fr/index-en.html</loc>
-        <lastmod>2019-12-29T23:40:00+01:00</lastmod>
+        <loc>https://otso.fr/index.html</loc>
+        <lastmod>2024-02-09T23:40:00+01:00</lastmod>
         <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://otso.fr/cv.html</loc>
+        <lastmod>2024-02-13T23:40:00+01:00</lastmod>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://otso.fr/conditions-generales-de-vente.html</loc>
-        <lastmod>2019-10-08T15:35:00+02:00</lastmod>
+        <lastmod>2024-02-09T23:40:00+01:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
         <loc>https://otso.fr/mentions-legales.html</loc>
-        <lastmod>2019-10-08T15:35:00+02:00</lastmod>
+        <lastmod>2024-02-09T23:40:00+01:00</lastmod>
         <priority>0.80</priority>
     </url>
 </urlset>
